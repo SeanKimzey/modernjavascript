@@ -79,7 +79,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\nvar math = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/index.js\");\n\nconsole.log('hello');\n\nconsole.log(moment().format('llll'));\n\nmath.sqrt(-4);\nconsole.log(math.sqrt(-4));\n\nvar name = \"Sean\";\nvar last = \"Kimzey\";\n\nconsole.log(name + ' ' + last);\n\n//# sourceURL=webpack:///./index.js?");
+eval("\n\nvar moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\nvar math = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/index.js\");\n\nconsole.log('hello');\n\nconsole.log(moment().format('llll'));\n\nmath.sqrt(-4);\nconsole.log(math.sqrt(-4));\n\nvar name = \"Sean\";\nvar last = \"Kimzey\";\n\nconsole.log(name + ' ' + last);\n\nvar firstName = \"Mary\";\nvar lastName = \"Carrick\";\n\nconsole.log(firstName + ' ' + lastName);\n\nvar bob = {\n  _name: \"Bob\",\n  _friends: [\"joe\", \"sean\"],\n  printFriends: function printFriends() {\n    var _this = this;\n\n    this._friends.forEach(function (f) {\n      return console.log(_this._name + \" knows \" + f);\n    });\n  }\n};\n\nconsole.log(bob.printFriends());\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ }),
 
